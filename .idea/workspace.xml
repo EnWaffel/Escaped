@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d838b3b6-8b18-4947-9be2-a3df56f8defd" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/randomutils_utils.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/G.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/game/client/Escaped.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/game/client/render/Render.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/resource/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/resource/SpriteImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pack/image/.dir" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pack/pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/game/client/render/Renderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/resource/ResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/resource/ResourceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/game/client/Escaped.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/game/client/Escaped.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/game/client/render/Render.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/projectp/escaped/Main$LogHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/projectp/escaped/Main$LogHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/projectp/escaped/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/projectp/escaped/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656155582799</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="a">
+      <created>1656345038123</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656345038123</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
