@@ -5,137 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d838b3b6-8b18-4947-9be2-a3df56f8defd" name="Changes" comment="a">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/opengl.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/randomutils_utils.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/G.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/game/client/Escaped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/game/client/render/Render.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/resource/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/resource/SpriteImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pack/image/.dir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pack/pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-android.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-android.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-rt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-rt.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen-test-util.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen-test-util.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gluegen.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/gluegen.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-android.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-android.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-test-android.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-test-android.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal-test.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal-test.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/joal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/joal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-android.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-android.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-test-android.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-test-android.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl-test.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl-test.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jocl.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jocl.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-android.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-android.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-mobile.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-mobile.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-android-aarch64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-android-aarch64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-android-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-android-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-linux-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-linux-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-linux-armv6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-linux-armv6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-linux-armv6hf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-linux-armv6hf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-linux-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-linux-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-macosx-universal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-macosx-universal.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-solaris-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-solaris-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-solaris-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-solaris-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-windows-amd64.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-windows-amd64.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt-natives-windows-i586.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt-natives-windows-i586.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all-noawt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all-noawt.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-all.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-all.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-test-android.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-test-android.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jogl-test.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opengl/jogl-test.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/resource/ResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/projectp/escaped/resource/ResourceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/a.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -164,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/leoar/OneDrive/Desktop/JavaStuff/Escaped/lib/opengl/jogl-test.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/leoar/OneDrive/Desktop/JavaStuff/random-utilities/out/artifacts/randomutils_utils/randomutils-utils.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\leoar\OneDrive\Desktop\JavaStuff\Escaped\lib" />
@@ -186,6 +71,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leoar\OneDrive\Desktop\JavaStuff\Escaped\lib\opengl" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="de.projectp.escaped.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.projectp.escaped.Main" />
+      <module name="Escaped" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.projectp.escaped.game.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.de.projectp.escaped.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -238,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656155384632</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="a">
+      <created>1656155582799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656155582799</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
