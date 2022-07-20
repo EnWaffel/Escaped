@@ -1,13 +1,14 @@
-package de.projectp.escaped.resource;
+package de.projectp.escaped.resource.image;
 
 import de.enwaffel.randomutils.file.FileOrPath;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.*;
+import java.io.InputStream;
 import java.util.Hashtable;
 
-public class SpriteImage extends BufferedImage {
+public class SpriteImage extends BufferedImage implements ImageProvider {
 
     private final Point offset;
 
@@ -53,12 +54,41 @@ public class SpriteImage extends BufferedImage {
     }
 
     public static SpriteImage fromFile(FileOrPath fileOrPath) {
+        return fromImage(raw(fileOrPath));
+    }
+
+    public static SpriteImage fromInputStream(InputStream is) {
+        return fromImage(_raw(is));
+    }
+
+    public static BufferedImage raw(FileOrPath fileOrPath) {
         try {
-            return fromImage(ImageIO.read(fileOrPath.getFile()));
+            return ImageIO.read(fileOrPath.getFile());
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return new SpriteImage(1, 1, BufferedImage.TYPE_INT_ARGB);
+        return new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB);
+    }
+
+    public static BufferedImage _raw(InputStream is) {
+        try {
+            return ImageIO.read(is);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB);
+    }
+
+    @Override
+    public String toString() {
+        return "SpriteImage@"+Integer.toHexString(hashCode())
+                +": type = "+getType()
+                +" "+getColorModel()+" "+getRaster();
+    }
+
+    @Override
+    public SpriteImage getImage() {
+        return this;
     }
 
 }
